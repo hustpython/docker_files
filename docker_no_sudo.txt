@@ -26,3 +26,9 @@ docker build -t="my_first:v1" .
 运行服务器时指定端口
 docker run -it -p 5000:5000 flask_t:v1
 
+进入容器:
+docker attach id
+
+hustoj:
+docker run -d -it --name shiningrise/hustoj:latest -p 80:80
+
